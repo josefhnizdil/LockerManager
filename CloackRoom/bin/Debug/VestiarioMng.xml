@@ -1,0 +1,388 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+VestiarioMng
+</name>
+</assembly>
+<members>
+<member name="T:VestiarioMng._MyDatabase_1DataSet.satnyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:VestiarioMng._MyDatabase_1DataSet.satnyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:VestiarioMng._MyDatabase_1DataSet.satnyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:VestiarioMng._MyDatabase_1DataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:VestiarioMng._MyDatabase_1DataSetTableAdapters.satnyTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:VestiarioMng._MyDatabase_1DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(VestiarioMng._MyDatabase_1DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:VestiarioMng._MyDatabase_1DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(VestiarioMng._MyDatabase_1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:VestiarioMng._MyDatabase_1DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(VestiarioMng._MyDatabase_1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:VestiarioMng._MyDatabase_1DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:VestiarioMng._MyDatabase_1DataSetTableAdapters.TableAdapterManager.UpdateAll(VestiarioMng._MyDatabase_1DataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:VestiarioMng._MyDatabase_1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:VestiarioMng._MyDatabase_1DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:VestiarioMng._MyDatabase_1DataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:VestiarioMng.backups.backupdatabasesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:VestiarioMng.backups.backupdatabasesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:VestiarioMng.backups.backupdatabasesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:VestiarioMng.backups">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:VestiarioMng.backupsTableAdapters.backupdatabasesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:VestiarioMng.backupsTableAdapters.TableAdapterManager.UpdateUpdatedRows(VestiarioMng.backups,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:VestiarioMng.backupsTableAdapters.TableAdapterManager.UpdateInsertedRows(VestiarioMng.backups,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:VestiarioMng.backupsTableAdapters.TableAdapterManager.UpdateDeletedRows(VestiarioMng.backups,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:VestiarioMng.backupsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:VestiarioMng.backupsTableAdapters.TableAdapterManager.UpdateAll(VestiarioMng.backups)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:VestiarioMng.backupsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:VestiarioMng.backupsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:VestiarioMng.backupsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:VestiarioMng.notebooks.ntbDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:VestiarioMng.notebooks.ntbRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:VestiarioMng.notebooks.ntbRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:VestiarioMng.notebooks">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:VestiarioMng.notebooksTableAdapters.ntbTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:VestiarioMng.notebooksTableAdapters.TableAdapterManager.UpdateUpdatedRows(VestiarioMng.notebooks,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:VestiarioMng.notebooksTableAdapters.TableAdapterManager.UpdateInsertedRows(VestiarioMng.notebooks,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:VestiarioMng.notebooksTableAdapters.TableAdapterManager.UpdateDeletedRows(VestiarioMng.notebooks,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:VestiarioMng.notebooksTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:VestiarioMng.notebooksTableAdapters.TableAdapterManager.UpdateAll(VestiarioMng.notebooks)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:VestiarioMng.notebooksTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:VestiarioMng.notebooksTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:VestiarioMng.notebooksTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:VestiarioMng._MyDatabase_1DataSet2.historiesatenDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:VestiarioMng._MyDatabase_1DataSet2.historiesatenRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:VestiarioMng._MyDatabase_1DataSet2.historiesatenRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:VestiarioMng._MyDatabase_1DataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:VestiarioMng._MyDatabase_1DataSet2TableAdapters.historiesatenTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:VestiarioMng._MyDatabase_1DataSet1.UzivateleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:VestiarioMng._MyDatabase_1DataSet1.UzivateleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:VestiarioMng._MyDatabase_1DataSet1.UzivateleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:VestiarioMng._MyDatabase_1DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:VestiarioMng._MyDatabase_1DataSet1TableAdapters.UzivateleTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:VestiarioMng._MyDatabase_1DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(VestiarioMng._MyDatabase_1DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:VestiarioMng._MyDatabase_1DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(VestiarioMng._MyDatabase_1DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:VestiarioMng._MyDatabase_1DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(VestiarioMng._MyDatabase_1DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:VestiarioMng._MyDatabase_1DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:VestiarioMng._MyDatabase_1DataSet1TableAdapters.TableAdapterManager.UpdateAll(VestiarioMng._MyDatabase_1DataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:VestiarioMng._MyDatabase_1DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:VestiarioMng._MyDatabase_1DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:VestiarioMng._MyDatabase_1DataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1364145746_man">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1365517873_print">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1365520906_sign_out">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1365521801_setting">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1365521863_refresh">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1365521909_settings">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1365521999_free_for_job">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1365522051_config">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1365522174_customers">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1365522243_about">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1365522248_home">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1366489323_screen_monitor">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1366845103_refresh">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1367186520_clock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1367186598_statistics">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1367186981_screwdriver">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1367187047_dialog_warning">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1368022240_111039">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1368022253_103178">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1369713513_22656">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1369783335_overview3d">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1369787251_administrator">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1370128706_table_delete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1370200406_database_refresh">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1370315655_application_pgp_signature">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1370315737_Information">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources._1370315775_gtk_refresh">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources.icon_export_xls">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources.lista_horni_login">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources.logo_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources.logout">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources.novaicona">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources.pdf">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VestiarioMng.My.Resources.Resources.statistika_fw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:VestiarioMng.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
